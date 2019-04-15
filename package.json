@@ -1,5 +1,5 @@
 {
-  "name": "react-native-background-fetch",
+  "name": "@exodus/react-native-background-fetch",
   "version": "2.5.3",
   "description": "iOS & Android BackgroundFetch API implementation for React Native",
   "scripts": {
