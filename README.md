@@ -31,6 +31,19 @@ $ npm install --save react-native-background-fetch
 - [Cocoapods Setup](docs/INSTALL-COCOAPODS-IOS.md)
 - [Manual Setup](docs/INSTALL-MANUAL-IOS.md)
 
+in `AppDelegate.m`, add:
+
+```obj-c
+#import "TSBackgroundFetch.h"
+
+-(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+  NSLog(@"RNBackgroundFetch AppDelegate received fetch event");
+  TSBackgroundFetch *fetchManager = [TSBackgroundFetch sharedInstance];
+  [fetchManager performFetchWithCompletionHandler:completionHandler applicationState:application.applicationState];
+}
+```
+
 ## Android Setup
 - [`react-native link` Setup](docs/INSTALL-LINK-ANDROID.md)
 - [Manual Setup](docs/INSTALL-MANUAL-ANDROID.md)
