@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
-#import <TSBackgroundFetch/TSBackgroundFetch.h>
+#import "TSBackgroundFetch.h"
 
 @implementation AppDelegate(AppDelegate)
 

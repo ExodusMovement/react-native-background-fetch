@@ -7,7 +7,7 @@
 //
 
 #import "RNBackgroundFetch.h"
-#import <TSBackgroundFetch/TSBackgroundFetch.h>
+#import "TSBackgroundFetch.h"
 #import <UIKit/UIKit.h>
 
 #if __has_include("RCTEventDispatcher.h")
