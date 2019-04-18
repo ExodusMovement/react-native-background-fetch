@@ -43,3 +43,7 @@ android/*.iml
 
 xcuserdata/
 android/.gradle/
+
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
