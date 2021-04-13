@@ -12,13 +12,12 @@ Pod::Spec.new do |s|
   s.homepage            = package['homepage']
   s.license             = package['license']
   s.author              = package['author']
-  s.source              = { :git => 'https://github.com/transistorsoft/react-native-background-fetch.git', :tag => s.version }
+  s.source              = { :git => 'https://github.com/ExodusMovement/react-native-background-fetch.git', :tag => s.version }
 
   s.requires_arc        = true
   s.platform            = :ios, '8.0'
   
   s.dependency 'React'
   s.preserve_paths      = 'docs', 'CHANGELOG.md', 'LICENSE', 'package.json', 'RNBackgroundFetch.ios.js'
-  s.source_files        = 'ios/RNBackgroundFetch/RNBackgroundFetch.h', 'ios/RNBackgroundFetch/RNBackgroundFetch.m'
-  s.vendored_frameworks = 'ios/RNBackgroundFetch/TSBackgroundFetch.framework'  
+  s.source_files        = 'ios/RNBackgroundFetch/RNBackgroundFetch.h', 'ios/RNBackgroundFetch/RNBackgroundFetch.m', 'ios/RNBackgroundFetch/TSBackgroundFetch.h', 'ios/RNBackgroundFetch/TSBackgroundFetch.m'
 end

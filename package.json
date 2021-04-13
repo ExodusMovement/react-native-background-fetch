@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/transistorsoft/react-native-background-fetch.git"
+    "url": "git+ssh://git@github.com/ExodusMovement/react-native-background-fetch.git"
   },
   "keywords": [
     "react-native",
@@ -19,9 +19,9 @@
   "author": "Chris Scott, Transistor Software <chris@transistorsoft.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/transistorsoft/react-native-background-fetch/issues"
+    "url": "https://github.com/ExodusMovement/react-native-background-fetch/issues"
   },
-  "homepage": "https://transistorsoft.github.io/react-native-background-fetch",
+  "homepage": "https://github.com/ExodusMovement/react-native-background-fetch",
   "peerDependencies": {
     "react-native": ">=0.28.0"
   },
